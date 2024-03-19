@@ -1,6 +1,13 @@
+import Logo from '../img/logo.png';
+
 function Footer() {
     return (
-        <div>Footer</div>
+        <footer>
+            <img src={Logo} alt="" />
+            <span>
+               Crafted with 🤍 and <b>React.js</b> by Pathum Sandeepa
+            </span>
+        </footer>
     )
 }
 
